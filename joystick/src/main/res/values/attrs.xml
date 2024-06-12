@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Joystick">
+        <attr name="joystickBaseColor" format="color"/>
+        <attr name="joystickStickColor" format="color"/>
+        <attr name="joystickBaseRatio" format="fraction"/>
+        <attr name="joystickStickRatio" format="fraction"/>
+        <attr name="joystickUseSpring" format="boolean"/>
+    </declare-styleable>
+</resources>
+
+<!--
+    declare-styleable 태그의 name 속성으로 지정한 값(Joystick)은 커스텀 뷰에서 지정한 값을 가져오기 위해 접근하는 리소스의 이름에 prefix로 사용된다.
+
+
+
+    joystickBaseColor : 베이스의 색상을 지정한다.
+    joystickStickColor : 스틱의 색상을 지정한다.
+    joystickBaseRatio : 조이스틱 뷰 영역에서 베이스가 차지하는 비율을 지정한다.
+    joystickStickRatio : 조이스틱 뷰 영역에서 스틱이 차지하는 비율을 지정한다.
+    joystickUseSpring : 스틱을 놓았을 때 베이스의 중앙으로 스틱이 이동할지를 지정한다.
+-->
