@@ -1,6 +1,10 @@
-make joystick custom module\n
-use joystick module\n
-test it.\n
+make joystick custom module
 
-by https://github.com/monotics/joystick\n
+use joystick module
+
+test it.
+
+
+by https://github.com/monotics/joystick
+
 https://monotics.tistory.com/19
